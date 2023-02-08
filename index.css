@@ -1,0 +1,73 @@
+@import url(./partial.css);
+body {
+    font-family: 'Playfair Display', serif;
+    line-height: 1.25;
+    letter-spacing: 0.2rem;
+    background-image: url("alpha+homepage+banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#sub-menu {
+    color: var(--color-of-head);
+}
+#hamburger-menu {
+    color: var(--color-of-head);
+}
+.slider-control {
+    height: calc(100vh - 13vh);
+    width: 100%;
+}
+.slider-control div {
+    width: 50%;
+    cursor: pointer;
+}
+.slider-control div > button {
+    width: 3rem;
+    height: 3rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.move-before {
+    margin-left: 2rem;
+}
+.move-after {
+    margin-right: 2rem;
+}
+body {
+    font-family: 'Playfair Display', serif;
+    line-height: 1.25;
+    letter-spacing: 0.2rem;
+    background-image: url("alpha+homepage+banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.slider-control {
+    height: calc(100vh - 13vh);
+    width: 100%;
+}
+.slider-control div {
+    width: 50%;
+    cursor: pointer;
+}
+.slider-control div > button {
+    width: 3rem;
+    height: 3rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.move-before {
+    margin-left: 2rem;
+}
+.move-after {
+    margin-right: 2rem;
+}
+@media only screen and (max-width: 800px) {
+    .move-after,
+    .move-before {
+        display: none;
+    }
+}

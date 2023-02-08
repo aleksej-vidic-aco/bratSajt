@@ -1,0 +1,37 @@
+@import url(./partial.css);
+body {
+    font-family: 'Playfair Display', serif;
+    line-height: 1.25;
+    letter-spacing: 0.2rem;
+}
+h1,
+h3, 
+p,
+a {
+    color: var(--color-of-biography);
+}
+a {
+    color: black;
+}
+main {
+    margin-top: 2rem;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+.contact-info {
+    width: min(70rem, 90%);
+}
+.main {
+    width: 100%;
+}
+.info {
+    flex-wrap: wrap;
+}
+.info:nth-child(2) {
+    align-self: flex-start;
+}
+.info div {
+    width: 50%;
+}

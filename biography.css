@@ -1,0 +1,54 @@
+@import url("./partial.css");
+h1,
+h3, 
+p,
+a {
+    color: var(--color-of-biography);
+}
+nav ul li a span:hover {
+    border-bottom: 1px solid var(--color-of-biography);
+}
+main {
+   margin-top: 3.5rem; 
+}
+.about {
+    max-width: 60ch;
+	font-size: clamp(0.6rem, 1vw + 1rem, 1.20rem);
+    padding: 1.5rem 0;
+    text-align: justify;
+    text-transform: initial;
+    letter-spacing: 0;
+}
+#head-of-about {
+    font-size: clamp(0.75rem, 3vw + 1rem, 1.5rem);
+    text-align: center;
+}
+#image-text {
+    margin-top: 1.8rem;
+    margin-left: 0.8rem;
+    float: right;
+}
+#sub-menu {
+    background-color: black;
+}
+#sub-menu ul li {
+    cursor: pointer;
+    color: white;
+    border: 1px solid transparent;
+    transition: border-bottom 0.7s;
+}
+#sub-menu ul li:hover {
+    border-bottom: 1px solid white;
+}
+@media only screen and (max-width: 467px) {
+    #image-text {
+        float: none;
+        text-align: center;
+        margin-left: 0;
+    }
+}
+@media only screen and (max-width: 780px) {
+    .head {
+        margin-left: 1rem;
+    }
+}

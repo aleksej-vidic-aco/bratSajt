@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miroslav Vidic</title>
+    <link rel = "stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <header>
+		<div class = "container flex space-between align-center"  id = "bigger-container">
+                    <div class = "head">
+                        <a href="index.html">
+                            <h1>
+                                miroslav vidic
+                            </h1>
+                            <p>
+                                umjetnik.
+                            </p>
+                        </a>
+                    </div>
+                    <nav>
+                        <ul class = "flex">
+                            <li>
+                            <a href="work.html">
+                                <span class = "section">Work</span>
+                            </a>
+                            </li>
+                            <li>
+                                <a href="biography.html">
+                                    <span class = "section">Biography</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="contact.html">
+                                    <span class = "section">Contact</span>
+                                </a>
+                                <div id = "sub-menu">
+                                    <ul>
+                                        <li>Gmail</li>
+                                        <li>Instagram</li>
+                                        <li>Facebook</li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                        <div id = "hamburger-menu">
+                            <span class="material-icons">
+                                menu
+                            </span>
+                        </div>
+                    </nav>
+		    </div>
+	</header>
+    <main>
+        <div class = "slider-control flex">
+            <div class = "flex align-center prev">
+                <button class = "move-before flex align-center justify-center">
+                    <span class="material-icons">
+                        navigate_before
+                    </span>
+                </button>
+            </div>
+            <div class = "flex align-center flex-end next">
+                <button class = "move-after flex align-center justify-center">
+                    <span class="material-icons">
+                        navigate_next
+                    </span>
+                </button>
+            </div>
+        </div>
+    </main>
+    <div class = "sidebar-menu">
+        <ul id = "main-sidebar-menu">
+            <li>Work</li>
+            <li>Biography</li>
+            <li>
+                Contact
+                <ul>
+                    <li>Gmail</li>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                </ul>
+            </li>
+        </ul>
+        <button class = "close-btn">
+            <span class="material-icons">
+                close
+            </span>
+        </button>
+    </div>
+    <script src = "main.js" defer></script>
+    <script src = "bio.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+@import url("./partial.css");
+h1,
+h3, 
+p,
+a {
+    color: var(--color-of-biography);
+}
+nav ul li a span:hover {
+    border-bottom: 1px solid var(--color-of-biography);
+}
+main {
+    margin-top: 3.5rem;
+}
+.wrap {
+    flex-wrap: wrap;
+}
+a {
+    color: black;
+}
+.gap {
+    gap: 1.5rem;
+}
+.flex-item {
+    overflow: hidden;
+    align-items: stretch;
+}
+.flex-item img {
+    transition: transform 0.7s;
+}
+.flex-item > img:hover {
+    transform: scale(1.5);
+}
